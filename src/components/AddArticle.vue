@@ -1,8 +1,6 @@
 <template>
   <div class="site-wrap">
-    <div class="auth_container">
-      <h1>Articles</h1>
-    </div>
+    <h1>Add article</h1>
   </div>
 </template>
 

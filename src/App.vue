@@ -1,18 +1,30 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <Header />
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue';
+import Header from './components/Header'
 import './main.css'
 
 export default {
   name: 'app',
   components: {
-    Home,
+    Header
   },
+  created: function() {
+    console.log('CREATED')
+  },
+  beforeMount() {
+    console.log('BEFORE CREATED')
+  },
+  mounted: function() {
+    console.log('MOUNTED')
+  }
 };
 </script>
 
