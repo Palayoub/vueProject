@@ -1,5 +1,7 @@
 # This is a simple VueJS project.
 
+![Alt Text](https://media.giphy.com/media/8Z2h2F2F3oKxTYxcYa/giphy.gif)
+
 ## Commands to run in order to get the project rurnning.
 ```
 npm install
