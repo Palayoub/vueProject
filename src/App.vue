@@ -17,13 +17,10 @@ export default {
     Header
   },
   created: function() {
-    console.log('CREATED')
   },
   beforeMount() {
-    console.log('BEFORE CREATED')
   },
   mounted: function() {
-    console.log('MOUNTED')
   }
 };
 </script>

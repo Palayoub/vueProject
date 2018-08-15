@@ -1,6 +1,6 @@
 <template>
   <div class="site-wrap">
-    <h1>Add article</h1>
+    <h4>Add post</h4>
   </div>
 </template>
 
